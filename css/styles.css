@@ -1,0 +1,161 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: 0px;
+}
+html {
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.quality {
+  margin: 4rem 0.5rem;
+  text-align: center;
+}
+.quality-heading h4 {
+  color: #1276a0;
+  margin: 1rem 3rem;
+}
+.quality-heading h1 {
+  font-size: 2.6rem;
+  color: #0d1d4e;
+  margin: 1rem 3rem;
+  line-height: 3.5rem;
+}
+.quality-body {
+  margin: 1rem 1rem;
+}
+.service {
+  margin-top: 2rem;
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+}
+.service i {
+  margin: 1rem 0.5rem;
+  color: #0579da99;
+  font-size: 3rem;
+}
+.service-content {
+  margin-left: 1rem;
+}
+.service-content h3 {
+  color: #0d1d4e;
+  /* margin: 0.5rem 1.5rem; */
+}
+.service-content p {
+  font-size: 2rem;
+  /* margin: 0.5rem 1.3rem; */
+  line-height: 1.5rem;
+}
+.clients {
+  margin-top: 2rem;
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+}
+.clients i {
+  margin: 1rem 0.5rem;
+  color: #0579da99;
+  font-size: 3rem;
+}
+.clients-content h3 {
+  color: #0d1d4e;
+  margin: 0.5rem 1.5rem;
+}
+.clients-content p {
+  font-size: 0.8rem;
+  margin: 0.5rem 1.3rem;
+  line-height: 1.5rem;
+}
+.maintenance {
+  margin-top: 2rem;
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+}
+.maintenance i {
+  margin: 1rem 0.5rem;
+  color: #0579da99;
+  font-size: 3rem;
+}
+.maintenance h3 {
+  color: #0d1d4e;
+  margin: 0.5rem 1.5rem;
+}
+.maintenance p {
+  font-size: 0.8rem;
+  margin: 0.5rem 1.3rem;
+  line-height: 1.5rem;
+}
+
+.management {
+  margin-top: 2rem;
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+}
+.management i {
+  margin: 1rem 0.5rem;
+  color: #0579da99;
+  font-size: 3rem;
+}
+.management h3 {
+  color: #0d1d4e;
+  margin: 0.5rem 1.5rem;
+}
+.management p {
+  font-size: 0.8rem;
+  margin: 0.5rem 1.3rem;
+  line-height: 1.5rem;
+}
+
+.satisfaction {
+  margin-top: 2rem;
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+}
+.satisfaction i {
+  margin: 1rem 0.5rem;
+  color: #0579da99;
+  font-size: 3rem;
+}
+.satisfaction h3 {
+  color: #0d1d4e;
+  margin: 0.5rem 1.5rem;
+}
+.satisfaction p {
+  font-size: 0.8rem;
+  margin: 0.5rem 1.3rem;
+  line-height: 1.5rem;
+}
+
+.service {
+  margin-top: 2rem;
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+}
+.service i {
+  margin: 1rem 0.5rem;
+  color: #0579da99;
+  font-size: 3rem;
+}
+.service h3 {
+  color: #0d1d4e;
+  margin: 0.5rem 1.5rem;
+}
+.service p {
+  font-size: 0.8rem;
+  margin: 0.5rem 1.3rem;
+  line-height: 1.5rem;
+}
+/* latest-projects */
+.latest-projects {
+  background-color: rgb(240, 245, 250);
+}
+.latest-projects {
+}
+.project-images {
+  width: 100vh;
+}
