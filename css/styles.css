@@ -10,6 +10,14 @@
     box-sizing: border-box;
 }
 
+.main-nav {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
 .logo {
     margin: 5px 0 0 5px;
     width: 60px;
@@ -168,7 +176,8 @@ ul {
 }
 
 .menu-bar {
-    margin-top: 1rem;
+    padding-top: 1rem;
+    background-color: white;
 }
 
 .menu-bar>ul {
@@ -191,6 +200,7 @@ ul {
 }
 
 .showcase {
+    margin-top: 4.2rem;
     width: 100%;
     height: 45vh;
     background: url("/images/banner-bg-mobile.jpg") no-repeat center center/cover;
@@ -222,56 +232,194 @@ section {
     margin-top: 15px;
 }
 
-.services {
-    margin: 10px 10px 20px 10px;
+.services h3 {
+    margin: 10px auto;
+    width: 303px;
 }
 
-.toughened-glass {
-    margin: 10px 10px 20px 10px;
+.services p {
+    margin: 10px auto 25px auto;
+    width: 303px;
 }
 
-.patch-fitting {
-    margin: 10px 10px 20px 10px;
+.toughened-glass img {
+    display: block;
+    margin: 10px auto;
 }
 
-.spider-fitting {
-    margin: 10px 10px 20px 10px;
+.toughened-glass h3 {
+    margin: 10px auto;
+    width: 303px;
 }
 
-.sliding-sensor-door {
-    margin: 10px 10px 20px 10px;
+.toughened-glass p {
+    margin: 10px auto 25px auto;
+    width: 303px;
 }
 
-.structural-glazing {
-    margin: 10px 10px 20px 10px;
+.patch-fitting img {
+    display: block;
+    margin: 10px auto;
 }
 
-.shower-cubicles {
-    margin: 10px 10px 20px 10px;
+.patch-fitting h3 {
+    margin: 10px auto;
+    width: 303px;
 }
 
-.acp-cladding {
-    margin: 10px 10px 20px 10px;
+.patch-fitting p {
+    margin: 10px auto 25px auto;
+    width: 303px;
 }
 
-.wall-ceiling {
-    margin: 10px 10px 20px 10px;
+.spider-fitting img {
+    display: block;
+    margin: 10px auto;
 }
 
-.aluminium-partition {
-    margin: 10px 10px 20px 10px;
+.spider-fitting h3 {
+    margin: 10px auto;
+    width: 303px;
 }
 
-.upvc-windows {
-    margin: 10px 10px 20px 10px;
+.spider-fitting p {
+    margin: 10px auto 25px auto;
+    width: 303px;
 }
 
-.ss-railings {
-    margin: 10px 10px 20px 10px;
+.sliding-sensor-door img {
+    display: block;
+    margin: 10px auto;
 }
 
-.curtain-wall-glazing {
-    margin: 10px 10px 20px 10px;
+.sliding-sensor-door h3 {
+    margin: 10px auto;
+    width: 303px;
+}
+
+.sliding-sensor-door p {
+    margin: 10px auto 25px auto;
+    width: 303px;
+}
+
+.structural-glazing img {
+    display: block;
+    margin: 10px auto;
+}
+
+.structural-glazing h3 {
+    margin: 10px auto;
+    width: 303px;
+}
+
+.structural-glazing p {
+    margin: 10px auto 25px auto;
+    width: 303px;
+}
+
+.shower-cubicles img {
+    display: block;
+    margin: 10px auto;
+}
+
+.shower-cubicles h3 {
+    margin: 10px auto;
+    width: 303px;
+}
+
+.shower-cubicles p {
+    margin: 10px auto 25px auto;
+    width: 303px;
+}
+
+.acp-cladding img {
+    display: block;
+    margin: 10px auto;
+}
+
+.acp-cladding h3 {
+    margin: 10px auto;
+    width: 303px;
+}
+
+.acp-cladding p {
+    margin: 10px auto 25px auto;
+    width: 303px;
+}
+
+.wall-ceiling img {
+    display: block;
+    margin: 10px auto;
+}
+
+.wall-ceiling h3 {
+    margin: 10px auto;
+    width: 303px;
+}
+
+.wall-ceiling p {
+    margin: 10px auto 25px auto;
+    width: 303px;
+}
+
+.aluminium-partition img {
+    display: block;
+    margin: 10px auto;
+}
+
+.aluminium-partition h3 {
+    margin: 10px auto;
+    width: 303px;
+}
+
+.aluminium-partition p {
+    margin: 10px auto 25px auto;
+    width: 303px;
+}
+
+.upvc-windows img {
+    display: block;
+    margin: 10px auto;
+}
+
+.upvc-windows h3 {
+    margin: 10px auto;
+    width: 303px;
+}
+
+.upvc-windows p {
+    margin: 10px auto 25px auto;
+    width: 303px;
+}
+
+.ss-railings img {
+    display: block;
+    margin: 10px auto;
+}
+
+.ss-railings h3 {
+    margin: 10px auto;
+    width: 303px;
+}
+
+.ss-railings p {
+    margin: 10px auto 25px auto;
+    width: 303px;
+}
+
+.curtain-wall-glazing img {
+    display: block;
+    margin: 10px auto;
+}
+
+.curtain-wall-glazing h3 {
+    margin: 10px auto;
+    width: 303px;
+}
+
+.curtain-wall-glazing p {
+    margin: 10px auto 25px auto;
+    width: 303px;
 }
 
 @media screen and (min-width: 0px) and (max-width: 699px) {
@@ -292,6 +440,7 @@ section {
         font-size: 1.2rem;
     }
     .showcase {
+        margin-top: 8.39rem;
         background: none;
         background: url("/images/banner-bg.jpg") no-repeat center center/cover;
     }
