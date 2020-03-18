@@ -246,6 +246,7 @@ section {
 
 .services p {
   margin: 10px auto 25px auto;
+  margin: 10px auto 35px auto;
   width: 303px;
 }
 
@@ -261,6 +262,7 @@ section {
 
 .toughened-glass p {
   margin: 10px auto 25px auto;
+  margin: 10px auto 35px auto;
   width: 303px;
 }
 
@@ -276,6 +278,7 @@ section {
 
 .patch-fitting p {
   margin: 10px auto 25px auto;
+  margin: 10px auto 35px auto;
   width: 303px;
 }
 
@@ -291,6 +294,7 @@ section {
 
 .spider-fitting p {
   margin: 10px auto 25px auto;
+  margin: 10px auto 35px auto;
   width: 303px;
 }
 
@@ -306,6 +310,7 @@ section {
 
 .sliding-sensor-door p {
   margin: 10px auto 25px auto;
+  margin: 10px auto 35px auto;
   width: 303px;
 }
 
@@ -321,6 +326,7 @@ section {
 
 .structural-glazing p {
   margin: 10px auto 25px auto;
+  margin: 10px auto 35px auto;
   width: 303px;
 }
 
@@ -336,6 +342,7 @@ section {
 
 .shower-cubicles p {
   margin: 10px auto 25px auto;
+  margin: 10px auto 35px auto;
   width: 303px;
 }
 
@@ -351,6 +358,7 @@ section {
 
 .acp-cladding p {
   margin: 10px auto 25px auto;
+  margin: 10px auto 35px auto;
   width: 303px;
 }
 
@@ -366,6 +374,7 @@ section {
 
 .wall-ceiling p {
   margin: 10px auto 25px auto;
+  margin: 10px auto 35px auto;
   width: 303px;
 }
 
@@ -381,6 +390,7 @@ section {
 
 .aluminium-partition p {
   margin: 10px auto 25px auto;
+  margin: 10px auto 35px auto;
   width: 303px;
 }
 
@@ -396,6 +406,7 @@ section {
 
 .upvc-windows p {
   margin: 10px auto 25px auto;
+  margin: 10px auto 35px auto;
   width: 303px;
 }
 
@@ -427,6 +438,219 @@ section {
 .curtain-wall-glazing p {
   margin: 10px auto 25px auto;
   width: 303px;
+}
+.quality {
+  margin: 4rem 0.5rem;
+  text-align: center;
+}
+.quality-heading h4 {
+  color: #1276a0;
+  margin: 1rem 3rem;
+}
+.quality-heading h1 {
+  font-size: 1.5rem;
+  color: #0d1d4e;
+  margin: 1rem 3rem;
+  line-height: 3.5rem;
+}
+.quality-body {
+  margin: 1rem 10px;
+}
+.service {
+  margin-top: 2rem;
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+}
+.service i {
+  margin: 1rem 0.5rem;
+  color: #0579da99;
+  font-size: 3rem;
+}
+.service-content {
+  margin-left: 1rem;
+}
+.service-content h3 {
+  color: #0d1d4e;
+  margin: 0.5rem 1.5rem;
+}
+.service-content p {
+  font-size: 2rem;
+  margin: 0.5rem 1.3rem;
+  line-height: 1.5rem;
+}
+.clients {
+  margin-top: 2rem;
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+}
+.clients i {
+  margin: 1rem 0.5rem;
+  color: #0579da99;
+  font-size: 3rem;
+}
+.clients-content {
+  margin-left: 0.6rem;
+}
+.clients-content h3 {
+  color: #0d1d4e;
+  margin: 0.5rem 1.5rem;
+}
+.clients-content p {
+  font-size: 0.8rem;
+  margin: 0.5rem 1.3rem;
+  line-height: 1.5rem;
+}
+.maintenance {
+  margin-top: 2rem;
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+}
+.maintenance i {
+  margin: 1rem 0.5rem;
+  color: #0579da99;
+  font-size: 3rem;
+}
+.maintenance-content {
+  margin-left: 1rem;
+}
+.maintenance h3 {
+  color: #0d1d4e;
+  margin: 0.5rem 1.5rem;
+}
+.maintenance p {
+  font-size: 0.8rem;
+  margin: 0.5rem 1.5rem;
+  line-height: 1.5rem;
+}
+
+.management {
+  margin-top: 2rem;
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+}
+.management i {
+  margin: 1rem 0.5rem;
+  color: #0579da99;
+  font-size: 3rem;
+}
+.management-content {
+  margin-left: 1rem;
+}
+.management h3 {
+  color: #0d1d4e;
+  margin: 0.5rem 1.5rem;
+}
+.management p {
+  font-size: 0.8rem;
+  margin: 0.5rem 1.3rem;
+  line-height: 1.5rem;
+}
+
+.satisfaction {
+  margin-top: 2rem;
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+}
+.satisfaction i {
+  margin: 1rem 0.5rem;
+  color: #0579da99;
+  font-size: 3rem;
+}
+
+.satisfaction-content {
+  margin-left: 1rem;
+}
+.satisfaction h3 {
+  color: #0d1d4e;
+  margin: 0.5rem 1.5rem;
+}
+.satisfaction p {
+  font-size: 0.8rem;
+  margin: 0.5rem 1.3rem;
+  line-height: 1.5rem;
+}
+
+.service {
+  margin-top: 2rem;
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+}
+.service i {
+  margin: 1rem 0.5rem;
+  color: #0579da99;
+  font-size: 3rem;
+}
+.service-content {
+  margin-left: 1rem;
+}
+.service h3 {
+  color: #0d1d4e;
+  margin: 0.5rem 1.5rem;
+}
+.service p {
+  font-size: 0.8rem;
+  margin: 0.5rem 1.3rem;
+  line-height: 1.5rem;
+}
+/* latest-projects */
+.latest-projects {
+  padding: 2rem 1rem;
+  background-color: rgb(244, 245, 248);
+}
+.project-heading {
+  text-align: center;
+}
+.project-heading h3 {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  color: #0579da99;
+}
+.project-heading h1 {
+  color: #0d1d4e;
+  font-size: 3rem;
+}
+.project-images img {
+  width: 95%;
+  margin-top: 3rem;
+  transition-duration: 0.25s;
+}
+.project-images img:hover {
+  width: 100%;
+}
+.project-images h2 {
+  color: white;
+  margin-top: -4rem;
+  margin-left: 2rem;
+  transition-duration: 0.25s;
+}
+.project-images h2:hover {
+  font-size: 2rem;
+}
+.project-images p {
+  color: white;
+  margin-left: 2rem;
+  margin-top: 0.3rem;
+  transition-duration: 0.25s;
+}
+.project-images p:hover {
+  font-size: 1.2rem;
+}
+
+/* Our Company */
+.our-company {
+  margin: 5rem 1rem;
+}
+.our-company h1 {
+  color: #0d1d4e;
+}
+.our-company p {
+  width: 80%;
 }
 
 @media screen and (min-width: 0px) and (max-width: 649px) {
@@ -479,6 +703,75 @@ section {
     font-size: 1.1rem;
   }
 }
+
+/* media queries starts from here */
+
+/* media for 450 */
+@media screen and (min-width: 450px) {
+  .quality-heading h1 {
+    font-size: 1.8rem;
+  }
+  .project-images img {
+    max-width: 80%;
+  }
+  .project-images img:hover {
+    max-width: 95%;
+  }
+}
+
+/* media queries 550 */
+@media screen and (min-width: 550px) {
+  .quality-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* .quality-body h3,p{
+    width: 70%;
+  } */
+  .project-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+  }
+  .project-images h2 {
+    margin-top: -3rem;
+    font-size: 1rem;
+  }
+  .project-images img {
+    width: 90%;
+  }
+  .project-images img:hover {
+    max-width: 95%;
+  }
+  .project-images p {
+    font-size: 0.7rem;
+    width: 70%;
+  }
+}
+@media screen and (min-width: 700px) {
+  .our-company {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+  }
+}
+/* media queries 1200 */
+@media screen and (min-width: 1200px) {
+  .quality-body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .project-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
 /* Footer */
 .footer {
   width: 100%;
