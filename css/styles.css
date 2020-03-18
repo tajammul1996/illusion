@@ -3,7 +3,7 @@
   margin: 0px;
   box-sizing: 0px;
 }
-html {
+body {
   font-family: "Roboto", sans-serif;
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -16,13 +16,13 @@ html {
   margin: 1rem 3rem;
 }
 .quality-heading h1 {
-  font-size: 2.6rem;
+  font-size: 1.5rem;
   color: #0d1d4e;
   margin: 1rem 3rem;
   line-height: 3.5rem;
 }
 .quality-body {
-  margin: 1rem 1rem;
+  margin: 1rem 10px;
 }
 .service {
   margin-top: 2rem;
@@ -59,7 +59,7 @@ html {
   font-size: 3rem;
 }
 .clients-content {
-  margin-left: 1rem;
+  margin-left: 0.6rem;
 }
 .clients-content h3 {
   color: #0d1d4e;
@@ -129,6 +129,7 @@ html {
   color: #0579da99;
   font-size: 3rem;
 }
+
 .satisfaction-content {
   margin-left: 1rem;
 }
@@ -212,4 +213,77 @@ html {
 /* Our Company */
 .our-company {
   margin: 5rem 1rem;
+}
+.our-company h1 {
+  color: #0d1d4e;
+}
+.our-company p {
+  width: 80%;
+}
+/* media queries starts from here */
+
+/* media for 450 */
+@media screen and (min-width: 450px) {
+  .quality-heading h1 {
+    font-size: 1.8rem;
+  }
+  .project-images img {
+    max-width: 80%;
+  }
+  .project-images img:hover {
+    max-width: 95%;
+  }
+}
+
+/* media queries 550 */
+@media screen and (min-width: 550px) {
+  .quality-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* .quality-body h3,p{
+    width: 70%;
+  } */
+  .project-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+  }
+  .project-images h2 {
+    margin-top: -3rem;
+    font-size: 1rem;
+  }
+  .project-images img {
+    width: 90%;
+  }
+  .project-images img:hover {
+    max-width: 95%;
+  }
+  .project-images p {
+    font-size: 0.7rem;
+    width: 70%;
+  }
+}
+@media screen and (min-width: 700px) {
+  .our-company {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+  }
+}
+/* media queries 1200 */
+@media screen and (min-width: 1200px) {
+  .quality-body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .project-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 }
