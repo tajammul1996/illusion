@@ -1,0 +1,481 @@
+:root {
+    --primary-color: rgba(28, 62, 172, 0.623);
+    --overlay-color: rgba(8, 67, 112, 0.904);
+    --menu-speed: 0.75s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Archivo Narrow", Arial, Helvetica;
+}
+
+.main-nav {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+.logo {
+    margin: 5px 0 0 5px;
+    width: 60px;
+    height: 50px;
+}
+
+.logo-name {
+    width: 100px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu-wrap {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.menu-wrap .toggler {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+}
+
+.menu-wrap .hamburger {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-wrap .hamburger>div {
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(9, 94, 221);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+}
+
+.menu-wrap .hamburger>div::before,
+.menu-wrap .hamburger>div::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    width: 100%;
+    height: 2px;
+    background: inherit;
+}
+
+.menu-wrap .hamburger>div::after {
+    top: 10px;
+}
+
+.menu-wrap .toggler:checked+.hamburger>div {
+    transform: rotate(135deg);
+}
+
+.menu-wrap .toggler:checked+.hamburger>div::before,
+.menu-wrap .toggler:checked+.hamburger>div::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+.menu-wrap .toggler:checked:hover+.hamburger>div {
+    transform: rotate(225deg);
+}
+
+.menu-wrap .toggler:checked~.menu {
+    visibility: visible;
+}
+
+.menu-wrap .toggler:checked~.menu>div {
+    transform: scale(1);
+    transition-duration: var(--menu-speed);
+}
+
+.menu-wrap .toggler:checked~.menu>div>div {
+    opacity: 1;
+    transition: opacity 0.4s ease;
+}
+
+.menu-wrap .menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 55%;
+    height: 430px;
+    visibility: hidden;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-wrap .menu>div {
+    background: var(--overlay-color);
+    border-radius: 50%;
+    width: 200vw;
+    height: 200vh;
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+    transition: all 0.4s ease;
+}
+
+.menu-wrap .menu>div>div {
+    text-align: center;
+    max-width: 90vw;
+    max-height: 100vh;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.menu-wrap .menu>div>div>ul>li {
+    list-style: none;
+    color: white;
+    font-size: 1rem;
+    padding: 8px;
+}
+
+.menu-wrap .menu>div>div>ul>li>a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.4s ease;
+}
+
+.menu-wrap .menu>div>div>ul>li>a:hover {
+    color: rgb(241, 230, 207);
+    border-bottom: 3px solid rgb(143, 203, 223);
+}
+
+.menu-bar {
+    padding-top: 1rem;
+    background-color: white;
+}
+
+.menu-bar>ul {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.menu-bar>ul>li>a {
+    font-weight: bolder;
+    color: rgb(49, 47, 47);
+}
+
+.menu-bar>ul>li>a:hover {
+    padding-bottom: 2px;
+    border-bottom: 3px solid rgb(45, 45, 253);
+}
+
+.showcase {
+    margin-top: 4.2rem;
+    width: 100%;
+    height: 45vh;
+    background: url("/images/banner-bg-mobile.jpg") no-repeat center center/cover;
+}
+
+.showcase h4 {
+    text-transform: uppercase;
+    padding: 1rem 0 0 0;
+    margin: 0px 10px 10px 15px;
+    width: 303px;
+    color: rgb(150, 206, 224);
+}
+
+.showcase p {
+    font-size: 1.2rem;
+    padding: 0.5rem 0rem 1.5rem;
+    margin: 0px 10px 10px 15px;
+    width: 303px;
+    color: white;
+}
+
+.showcase a {
+    font-size: 13px;
+    background-color: rgba(108, 211, 29, 0.8);
+    color: white;
+    padding: 12px 35px;
+    margin: 0px 10px 10px 15px;
+}
+
+section {
+    font-family: "Archivo Narrow", Arial, Helvetica;
+    margin-top: 15px;
+}
+
+.services h3 {
+    margin: 10px auto;
+    width: 303px;
+}
+
+.services p {
+    margin: 10px auto 25px auto;
+    width: 303px;
+}
+
+.toughened-glass img {
+    display: block;
+    margin: 10px auto;
+}
+
+.toughened-glass h3 {
+    margin: 10px auto;
+    width: 303px;
+}
+
+.toughened-glass p {
+    margin: 10px auto 25px auto;
+    width: 303px;
+}
+
+.patch-fitting img {
+    display: block;
+    margin: 10px auto;
+}
+
+.patch-fitting h3 {
+    margin: 10px auto;
+    width: 303px;
+}
+
+.patch-fitting p {
+    margin: 10px auto 25px auto;
+    width: 303px;
+}
+
+.spider-fitting img {
+    display: block;
+    margin: 10px auto;
+}
+
+.spider-fitting h3 {
+    margin: 10px auto;
+    width: 303px;
+}
+
+.spider-fitting p {
+    margin: 10px auto 25px auto;
+    width: 303px;
+}
+
+.sliding-sensor-door img {
+    display: block;
+    margin: 10px auto;
+}
+
+.sliding-sensor-door h3 {
+    margin: 10px auto;
+    width: 303px;
+}
+
+.sliding-sensor-door p {
+    margin: 10px auto 25px auto;
+    width: 303px;
+}
+
+.structural-glazing img {
+    display: block;
+    margin: 10px auto;
+}
+
+.structural-glazing h3 {
+    margin: 10px auto;
+    width: 303px;
+}
+
+.structural-glazing p {
+    margin: 10px auto 25px auto;
+    width: 303px;
+}
+
+.shower-cubicles img {
+    display: block;
+    margin: 10px auto;
+}
+
+.shower-cubicles h3 {
+    margin: 10px auto;
+    width: 303px;
+}
+
+.shower-cubicles p {
+    margin: 10px auto 25px auto;
+    width: 303px;
+}
+
+.acp-cladding img {
+    display: block;
+    margin: 10px auto;
+}
+
+.acp-cladding h3 {
+    margin: 10px auto;
+    width: 303px;
+}
+
+.acp-cladding p {
+    margin: 10px auto 25px auto;
+    width: 303px;
+}
+
+.wall-ceiling img {
+    display: block;
+    margin: 10px auto;
+}
+
+.wall-ceiling h3 {
+    margin: 10px auto;
+    width: 303px;
+}
+
+.wall-ceiling p {
+    margin: 10px auto 25px auto;
+    width: 303px;
+}
+
+.aluminium-partition img {
+    display: block;
+    margin: 10px auto;
+}
+
+.aluminium-partition h3 {
+    margin: 10px auto;
+    width: 303px;
+}
+
+.aluminium-partition p {
+    margin: 10px auto 25px auto;
+    width: 303px;
+}
+
+.upvc-windows img {
+    display: block;
+    margin: 10px auto;
+}
+
+.upvc-windows h3 {
+    margin: 10px auto;
+    width: 303px;
+}
+
+.upvc-windows p {
+    margin: 10px auto 25px auto;
+    width: 303px;
+}
+
+.ss-railings img {
+    display: block;
+    margin: 10px auto;
+}
+
+.ss-railings h3 {
+    margin: 10px auto;
+    width: 303px;
+}
+
+.ss-railings p {
+    margin: 10px auto 25px auto;
+    width: 303px;
+}
+
+.curtain-wall-glazing img {
+    display: block;
+    margin: 10px auto;
+}
+
+.curtain-wall-glazing h3 {
+    margin: 10px auto;
+    width: 303px;
+}
+
+.curtain-wall-glazing p {
+    margin: 10px auto 25px auto;
+    width: 303px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 649px) {
+    .menu-bar {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .menu-wrap {
+        display: none;
+    }
+    .menu-wrap .menu>div>div>ul>li>a {
+        display: block;
+        color: black;
+    }
+    .menu-bar>ul {
+        font-size: 1.2rem;
+    }
+    .showcase {
+        margin-top: 8.39rem;
+        background: none;
+        background: url("/images/banner-bg.jpg") no-repeat center center/cover;
+    }
+    .material {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .showcase h4 {
+        font-size: 1.8rem;
+    }
+    .showcase p {
+        font-size: 1.1rem;
+    }
+    .showcase a {
+        font-size: 1.1rem;
+    }
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .container h3 {
+        font-size: 1.8rem;
+    }
+    .container p {
+        font-size: 1.1rem;
+    }
+}
