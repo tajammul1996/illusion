@@ -213,7 +213,7 @@ ul {
 .showcase h4 {
     text-transform: uppercase;
     padding: 1rem 0 0 0;
-    margin: 0px 10px 10px 8px;
+    margin: 0px 10px 10px 15px;
     width: 303px;
     color: rgb(150, 206, 224);
 }
@@ -221,7 +221,7 @@ ul {
 .showcase p {
     font-size: 1.2rem;
     padding: 0.5rem 0rem 1.5rem;
-    margin: 0px 10px 10px 8px;
+    margin: 0px 10px 10px 15px;
     width: 303px;
     color: white;
 }
@@ -231,7 +231,7 @@ ul {
     background-color: rgba(108, 211, 29, 0.8);
     color: white;
     padding: 12px 35px;
-    margin: 0px 10px 10px 8px;
+    margin: 0px 10px 10px 15px;
 }
 
 section {
@@ -458,7 +458,28 @@ section {
 }
 
 @media screen and (min-width: 1000px) {
-    .material {
+    .showcase .container {
+        padding-top: 3rem;
+        margin-left: 15px;
+    }
+    .showcase h4 {
+        font-size: 2rem;
+    }
+    .showcase .container p {
+        font-size: 1.4rem;
+    }
+    .showcase a {
+        font-size: 1rem;
+    }
+    .container {
         grid-template-columns: repeat(3, 1fr);
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .container h3 {
+        font-size: 1.5rem;
+    }
+    .container p {
+        font-size: 1.2rem;
     }
 }
