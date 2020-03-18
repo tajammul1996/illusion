@@ -457,19 +457,19 @@ section {
     }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
     .showcase .container {
         padding-top: 3rem;
         margin-left: 15px;
     }
     .showcase h4 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .showcase .container p {
-        font-size: 1.4rem;
+        font-size: 1.1rem;
     }
     .showcase a {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
     .container {
         grid-template-columns: repeat(3, 1fr);
@@ -477,9 +477,9 @@ section {
         margin: 0 auto;
     }
     .container h3 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     .container p {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 }
