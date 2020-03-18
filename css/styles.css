@@ -458,14 +458,10 @@ section {
 }
 
 @media screen and (min-width: 1200px) {
-    .showcase .container {
-        padding-top: 3rem;
-        margin-left: 15px;
-    }
     .showcase h4 {
         font-size: 1.8rem;
     }
-    .showcase .container p {
+    .showcase p {
         font-size: 1.1rem;
     }
     .showcase a {
