@@ -40,11 +40,11 @@ html {
 }
 .service-content h3 {
   color: #0d1d4e;
-  /* margin: 0.5rem 1.5rem; */
+  margin: 0.5rem 1.5rem;
 }
 .service-content p {
   font-size: 2rem;
-  /* margin: 0.5rem 1.3rem; */
+  margin: 0.5rem 1.3rem;
   line-height: 1.5rem;
 }
 .clients {
@@ -57,6 +57,9 @@ html {
   margin: 1rem 0.5rem;
   color: #0579da99;
   font-size: 3rem;
+}
+.clients-content {
+  margin-left: 1rem;
 }
 .clients-content h3 {
   color: #0d1d4e;
@@ -78,13 +81,16 @@ html {
   color: #0579da99;
   font-size: 3rem;
 }
+.maintenance-content {
+  margin-left: 1rem;
+}
 .maintenance h3 {
   color: #0d1d4e;
   margin: 0.5rem 1.5rem;
 }
 .maintenance p {
   font-size: 0.8rem;
-  margin: 0.5rem 1.3rem;
+  margin: 0.5rem 1.5rem;
   line-height: 1.5rem;
 }
 
@@ -98,6 +104,9 @@ html {
   margin: 1rem 0.5rem;
   color: #0579da99;
   font-size: 3rem;
+}
+.management-content {
+  margin-left: 1rem;
 }
 .management h3 {
   color: #0d1d4e;
@@ -120,6 +129,9 @@ html {
   color: #0579da99;
   font-size: 3rem;
 }
+.satisfaction-content {
+  margin-left: 1rem;
+}
 .satisfaction h3 {
   color: #0d1d4e;
   margin: 0.5rem 1.5rem;
@@ -141,6 +153,9 @@ html {
   color: #0579da99;
   font-size: 3rem;
 }
+.service-content {
+  margin-left: 1rem;
+}
 .service h3 {
   color: #0d1d4e;
   margin: 0.5rem 1.5rem;
@@ -152,10 +167,49 @@ html {
 }
 /* latest-projects */
 .latest-projects {
-  background-color: rgb(240, 245, 250);
+  padding: 2rem 1rem;
+  background-color: rgb(244, 245, 248);
 }
-.latest-projects {
+.project-heading {
+  text-align: center;
 }
-.project-images {
-  width: 100vh;
+.project-heading h3 {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  color: #0579da99;
+}
+.project-heading h1 {
+  color: #0d1d4e;
+  font-size: 3rem;
+}
+.project-images img {
+  width: 95%;
+  margin-top: 3rem;
+  transition-duration: 0.25s;
+}
+.project-images img:hover {
+  width: 100%;
+}
+.project-images h2 {
+  color: white;
+  margin-top: -4rem;
+  margin-left: 2rem;
+  transition-duration: 0.25s;
+}
+.project-images h2:hover {
+  font-size: 2rem;
+}
+.project-images p {
+  color: white;
+  margin-left: 2rem;
+  margin-top: 0.3rem;
+  transition-duration: 0.25s;
+}
+.project-images p:hover {
+  font-size: 1.2rem;
+}
+
+/* Our Company */
+.our-company {
+  margin: 5rem 1rem;
 }
