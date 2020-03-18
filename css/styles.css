@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Archivo Narrow", Arial, Helvetica;
+}
+
 .main-nav {
     width: 100%;
     height: 70px;
@@ -190,7 +194,7 @@ ul {
 }
 
 .menu-bar>ul>li>a {
-    font-family: "Lato", "Times New Roman", Times;
+    font-weight: bolder;
     color: rgb(49, 47, 47);
 }
 
@@ -208,15 +212,18 @@ ul {
 
 .showcase h4 {
     text-transform: uppercase;
-    padding: 15px 0 0 0.8rem;
+    padding: 1rem 0 0 0;
+    margin: 0px 10px 10px 8px;
+    width: 303px;
     color: rgb(150, 206, 224);
 }
 
 .showcase p {
     font-size: 1.2rem;
-    padding: 0.5rem 0.8rem 1.5rem;
+    padding: 0.5rem 0rem 1.5rem;
+    margin: 0px 10px 10px 8px;
+    width: 303px;
     color: white;
-    width: 85%;
 }
 
 .showcase a {
@@ -224,7 +231,7 @@ ul {
     background-color: rgba(108, 211, 29, 0.8);
     color: white;
     padding: 12px 35px;
-    margin: 0px 10px 10px 13px;
+    margin: 0px 10px 10px 8px;
 }
 
 section {
@@ -422,13 +429,13 @@ section {
     width: 303px;
 }
 
-@media screen and (min-width: 0px) and (max-width: 699px) {
+@media screen and (min-width: 0px) and (max-width: 649px) {
     .menu-bar {
         display: none;
     }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 650px) {
     .menu-wrap {
         display: none;
     }
@@ -443,13 +450,6 @@ section {
         margin-top: 8.39rem;
         background: none;
         background: url("/images/banner-bg.jpg") no-repeat center center/cover;
-    }
-    .showcase h4 {
-        padding: 2.5rem 15px 0.8rem;
-    }
-    .showcase p {
-        padding: 0 15px 3rem;
-        width: 50%;
     }
     .material {
         display: grid;
