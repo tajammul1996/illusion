@@ -219,18 +219,64 @@ ul {
 
 section {
     font-family: "Archivo Narrow", Arial, Helvetica;
+    margin-top: 15px;
+}
+
+.services {
+    margin: 10px 10px 20px 10px;
+}
+
+.toughened-glass {
+    margin: 10px 10px 20px 10px;
+}
+
+.patch-fitting {
+    margin: 10px 10px 20px 10px;
+}
+
+.spider-fitting {
+    margin: 10px 10px 20px 10px;
+}
+
+.sliding-sensor-door {
+    margin: 10px 10px 20px 10px;
+}
+
+.structural-glazing {
+    margin: 10px 10px 20px 10px;
+}
+
+.shower-cubicles {
+    margin: 10px 10px 20px 10px;
+}
+
+.acp-cladding {
+    margin: 10px 10px 20px 10px;
+}
+
+.wall-ceiling {
+    margin: 10px 10px 20px 10px;
+}
+
+.aluminium-partition {
+    margin: 10px 10px 20px 10px;
+}
+
+.upvc-windows {
+    margin: 10px 10px 20px 10px;
+}
+
+.ss-railings {
+    margin: 10px 10px 20px 10px;
+}
+
+.curtain-wall-glazing {
+    margin: 10px 10px 20px 10px;
 }
 
 @media screen and (min-width: 0px) and (max-width: 699px) {
     .menu-bar {
         display: none;
-    }
-}
-
-@media screen and (min-width: 500px) {
-    .material {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -255,5 +301,16 @@ section {
     .showcase p {
         padding: 0 15px 3rem;
         width: 50%;
+    }
+    .material {
+        margin-left: 2rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .material {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
