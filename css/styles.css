@@ -452,7 +452,6 @@ section {
         width: 50%;
     }
     .material {
-        margin-left: 2rem;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
