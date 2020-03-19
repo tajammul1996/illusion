@@ -861,6 +861,81 @@ section {
 }
 
 
+/* Testimonials--css */
+#testamonials {
+  margin-top: 10px;
+  background: rgb(56, 117, 190);
+  background: linear-gradient(
+    190deg,
+    rgba(56, 117, 190, 1) 0%,
+    rgba(70, 135, 176, 1) 67%
+  );
+}
+
+#testamonials h3 {
+  padding: 20px 0;
+  color: #0d1d4e;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.carousel-inner {
+  text-align: center;
+}
+
+.carousel-inner h2 {
+  color: #060e25;
+}
+
+.carousel-inner img {
+  border-radius: 50%;
+}
+
+.carousel-inner p {
+  color: white;
+  /* margin: 50px; */
+  margin: 10px auto;
+  margin-bottom: 50px;
+  width: 90%;
+}
+
+.test {
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 650px) {
+  .carousel-inner {
+    display: flex;
+  }
+  .carousel-inner p {
+    margin: 10px auto;
+    width: 60%;
+    /* margin-bottom: 50px; */
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  #testamonials h3 {
+    font-size: 1.7rem;
+  }
+  .carousel-inner h2 {
+    font-size: 1.5rem;
+  }
+  .carousel-inner p {
+    font-size: 1rem;
+    margin: 10px auto;
+    width: 60%;
+  }
+}
+/* testimonials-end */
+
+
 /* Footer */
 
 .footer {
