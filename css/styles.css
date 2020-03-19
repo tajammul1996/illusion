@@ -12,6 +12,7 @@
 
 body {
   font-family: "Archivo Narrow", Arial, Helvetica;
+  line-height: 1.4;
 }
 
 .main-nav {
@@ -620,6 +621,7 @@ section {
   margin-top: 3rem;
   transition-duration: 0.25s;
 }
+
 .project-images img:hover {
   width: 100%;
 }
@@ -651,7 +653,6 @@ section {
 }
 .our-company p {
   width: 95%;
-  line-height: 1.4;
 }
 
 @media screen and (min-width: 0px) and (max-width: 649px) {
@@ -713,7 +714,7 @@ section {
     font-size: 1.8rem;
   }
   .project-images img {
-    max-width: 80%;
+    max-width: 90%;
   }
   .project-images img:hover {
     max-width: 95%;
@@ -733,6 +734,7 @@ section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 5px;
+    text-align: center;
   }
   .project-images h2 {
     margin-top: -3rem;
@@ -777,6 +779,10 @@ section {
 .footer {
   width: 100%;
   background: url("/images/footer-bg-.jpg") no-repeat center center/cover;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
 }
 .about {
   color: white;
