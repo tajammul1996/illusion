@@ -11,8 +11,10 @@
 }
 
 body {
-  font-family: "Archivo Narrow", Arial, Helvetica;
-  line-height: 1.4;
+  /* font-family: "Archivo Narrow", Arial, Helvetica; */
+  font-family: "Cabin", sans-serif;
+
+  line-height: 1.3;
 }
 
 .main-nav {
@@ -236,19 +238,20 @@ ul {
 }
 
 section {
-  font-family: "Archivo Narrow", Arial, Helvetica;
+  /* font-family: "Archivo Narrow", Arial, Helvetica; */
   margin-top: 15px;
 }
 
 .services h3 {
   margin: 10px auto;
-  width: 303px;
+  max-width: 500px;
+  width: 90%;
 }
 
 .services p {
-  margin: 10px auto 25px auto;
   margin: 10px auto 35px auto;
-  width: 303px;
+  max-width: 500px;
+  width: 90%;
 }
 
 .toughened-glass img {
@@ -258,13 +261,14 @@ section {
 
 .toughened-glass h3 {
   margin: 10px auto;
-  width: 303px;
+  max-width: 500px;
+  width: 90%;
 }
 
 .toughened-glass p {
-  margin: 10px auto 25px auto;
   margin: 10px auto 35px auto;
-  width: 303px;
+  max-width: 500px;
+  width: 90%;
 }
 
 .patch-fitting img {
@@ -274,13 +278,15 @@ section {
 
 .patch-fitting h3 {
   margin: 10px auto;
-  width: 303px;
+  max-width: 500px;
+  width: 90%;
 }
 
 .patch-fitting p {
   margin: 10px auto 25px auto;
   margin: 10px auto 35px auto;
-  width: 303px;
+  max-width: 500px;
+  width: 90%;
 }
 
 .spider-fitting img {
@@ -290,13 +296,15 @@ section {
 
 .spider-fitting h3 {
   margin: 10px auto;
-  width: 303px;
+  max-width: 500px;
+  width: 90%;
 }
 
 .spider-fitting p {
   margin: 10px auto 25px auto;
   margin: 10px auto 35px auto;
-  width: 303px;
+  max-width: 500px;
+  width: 90%;
 }
 
 .sliding-sensor-door img {
@@ -306,13 +314,15 @@ section {
 
 .sliding-sensor-door h3 {
   margin: 10px auto;
-  width: 303px;
+  max-width: 500px;
+  width: 90%;
 }
 
 .sliding-sensor-door p {
   margin: 10px auto 25px auto;
   margin: 10px auto 35px auto;
-  width: 303px;
+  max-width: 500px;
+  width: 90%;
 }
 
 .structural-glazing img {
@@ -322,13 +332,15 @@ section {
 
 .structural-glazing h3 {
   margin: 10px auto;
-  width: 303px;
+  max-width: 500px;
+  width: 90%;
 }
 
 .structural-glazing p {
   margin: 10px auto 25px auto;
   margin: 10px auto 35px auto;
-  width: 303px;
+  max-width: 500px;
+  width: 90%;
 }
 
 .shower-cubicles img {
@@ -338,13 +350,15 @@ section {
 
 .shower-cubicles h3 {
   margin: 10px auto;
-  width: 303px;
+  max-width: 500px;
+  width: 90%;
 }
 
 .shower-cubicles p {
   margin: 10px auto 25px auto;
   margin: 10px auto 35px auto;
-  width: 303px;
+  max-width: 500px;
+  width: 90%;
 }
 
 .acp-cladding img {
@@ -354,13 +368,15 @@ section {
 
 .acp-cladding h3 {
   margin: 10px auto;
-  width: 303px;
+  max-width: 500px;
+  width: 90%;
 }
 
 .acp-cladding p {
   margin: 10px auto 25px auto;
   margin: 10px auto 35px auto;
-  width: 303px;
+  max-width: 500px;
+  width: 90%;
 }
 
 .wall-ceiling img {
@@ -370,13 +386,15 @@ section {
 
 .wall-ceiling h3 {
   margin: 10px auto;
-  width: 303px;
+  max-width: 500px;
+  width: 90%;
 }
 
 .wall-ceiling p {
   margin: 10px auto 25px auto;
   margin: 10px auto 35px auto;
-  width: 303px;
+  max-width: 500px;
+  width: 90%;
 }
 
 .aluminium-partition img {
@@ -386,13 +404,15 @@ section {
 
 .aluminium-partition h3 {
   margin: 10px auto;
-  width: 303px;
+  max-width: 500px;
+  width: 90%;
 }
 
 .aluminium-partition p {
   margin: 10px auto 25px auto;
   margin: 10px auto 35px auto;
-  width: 303px;
+  max-width: 500px;
+  width: 90%;
 }
 
 .upvc-windows img {
@@ -402,13 +422,15 @@ section {
 
 .upvc-windows h3 {
   margin: 10px auto;
-  width: 303px;
+  max-width: 500px;
+  width: 90%;
 }
 
 .upvc-windows p {
   margin: 10px auto 25px auto;
   margin: 10px auto 35px auto;
-  width: 303px;
+  max-width: 500px;
+  width: 90%;
 }
 
 .ss-railings img {
@@ -418,12 +440,14 @@ section {
 
 .ss-railings h3 {
   margin: 10px auto;
-  width: 303px;
+  max-width: 500px;
+  width: 90%;
 }
 
 .ss-railings p {
   margin: 10px auto 25px auto;
-  width: 303px;
+  max-width: 500px;
+  width: 90%;
 }
 
 .curtain-wall-glazing img {
@@ -433,12 +457,14 @@ section {
 
 .curtain-wall-glazing h3 {
   margin: 10px auto;
-  width: 303px;
+  max-width: 500px;
+  width: 90%;
 }
 
 .curtain-wall-glazing p {
   margin: 10px auto 25px auto;
-  width: 303px;
+  max-width: 500px;
+  width: 90%;
 }
 .quality {
   margin: 4rem 0.5rem;
@@ -655,6 +681,12 @@ section {
   width: 95%;
 }
 
+.material img {
+  width: 90%;
+  max-width: 500px;
+  height: 230px;
+}
+
 @media screen and (min-width: 0px) and (max-width: 649px) {
   .menu-bar {
     display: none;
@@ -780,10 +812,7 @@ section {
   width: 100%;
   background: url("/images/footer-bg-.jpg") no-repeat center center/cover;
 }
-.footer .container {
-  display: flex;
-  justify-content: space-between;
-}
+
 .about {
   color: white;
   line-height: 1.5rem;
@@ -844,9 +873,9 @@ section {
 }
 /* Media Query for 650px (footer)*/
 @media screen and (min-width: 649px) {
-  .footer {
+  .footer .container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
   .about {
     width: 30%;
