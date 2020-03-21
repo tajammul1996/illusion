@@ -747,9 +747,10 @@ section {
     font-size: 1.2rem;
   }
   .showcase {
+    /* height: 100vh; */
     margin-top: 8.39rem;
     background: none;
-    background: url("images/banner-bg.jpg") no-repeat center center/cover;
+    background: url("/images/banner-bg.jpg") no-repeat center center/cover;
   }
   .material {
     display: grid;
