@@ -889,72 +889,119 @@ section {
 
 /* Testimonials--css */
 
-#testimonials {
-    margin-top: 10px;
+.slider {
+    position: relative;
+    overflow: hidden;
+    height: 45vh;
+    width: 100%;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.slide.current {
+    opacity: 1;
+}
+
+.slide .content {
+    position: absolute;
+    bottom: 70px;
+    left: -100%;
+    opacity: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.slide .content img {
+    border-radius: 50%;
+    padding: 10px 0;
+}
+
+.slide .content h2 {
+    text-transform: uppercase;
+    color: #0d1d4e;
+}
+
+.slide .content p {
+    margin-top: 5px;
+    color: white;
+    width: 90%;
+}
+
+.slide.current .content {
+    opacity: 1;
+    transform: translateX(100%);
+    transition: all 0.7s ease-in-out 0.3s;
+}
+
+.buttons {
+    position: relative;
+}
+
+.buttons button#next {
+    position: absolute;
+    top: -250px;
+    right: 20px;
+    font-size: 25px;
+}
+
+.buttons button#prev {
+    position: absolute;
+    top: -250px;
+    left: 20px;
+    font-size: 25px;
+}
+
+.buttons button {
+    border: 3px solid white;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 50%;
+    outline: none;
+}
+
+.buttons button:hover {
+    background-color: #fff;
+    color: #0d1d4e;
+}
+
+@media screen and (min-width: 1200px) {
+    .buttons {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+
+/* Background color for testimonial slides*/
+
+.slide:first-child {
     background: rgb(56, 117, 190);
     background: linear-gradient( 190deg, rgba(56, 117, 190, 1) 0%, rgba(70, 135, 176, 1) 67%);
 }
 
-#testimonials h3 {
-    padding: 20px 0;
-    color: #0d1d4e;
-    font-size: 1.2rem;
-    margin: 0 auto;
-    text-align: center;
-    text-transform: uppercase;
+.slide:nth-child(2) {
+    background: rgb(56, 117, 190);
+    background: linear-gradient( 190deg, rgba(56, 117, 190, 1) 0%, rgba(70, 135, 176, 1) 67%);
 }
 
-.carousel-inner {
-    text-align: center;
-}
-
-.carousel-inner h2 {
-    color: #060e25;
-}
-
-.carousel-inner img {
-    border-radius: 50%;
-}
-
-.carousel-inner p {
-    color: white;
-    /* margin: 50px; */
-    margin: 10px auto;
-    margin-bottom: 50px;
-    width: 90%;
-}
-
-.test {
-    padding-bottom: 20px;
-}
-
-@media screen and (min-width: 650px) {
-    .carousel-inner {
-        display: flex;
-    }
-    .carousel-inner p {
-        margin: 10px auto;
-        width: 60%;
-        /* margin-bottom: 50px; */
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .container {
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-    #testimonials h3 {
-        font-size: 1.7rem;
-    }
-    .carousel-inner h2 {
-        font-size: 1.5rem;
-    }
-    .carousel-inner p {
-        font-size: 1rem;
-        margin: 10px auto;
-        width: 60%;
-    }
+.slide:nth-child(3) {
+    background: rgb(56, 117, 190);
+    background: linear-gradient( 190deg, rgba(56, 117, 190, 1) 0%, rgba(70, 135, 176, 1) 67%);
 }
 
 
