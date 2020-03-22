@@ -1023,6 +1023,7 @@ section {
 }
 
 .rights {
+    padding: 10px 0;
     background-color: black;
     color: white;
     text-align: center;
@@ -1101,5 +1102,43 @@ section {
     }
     .rights h5 {
         font-size: 1.2rem;
+    }
+}
+
+
+/* go to top */
+
+.go-to-top {
+    background: rgb(56, 117, 190);
+    background: linear-gradient( 190deg, rgba(56, 117, 190, 1) 0%, rgba(70, 135, 176, 1) 67%);
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.go-to-top p {
+    margin-top: 5px;
+    color: #fff;
+}
+
+.go-to-top i {
+    border: 1.5px solid #fff;
+    background-color: #0d1d4e;
+    color: white;
+    cursor: pointer;
+    padding: 10px 12px;
+    border-radius: 50%;
+    outline: none;
+}
+
+.go-to-top i:hover {
+    color: #0d1d4e;
+    background-color: #fff;
+    border-color: #0d1d4e;
+}
+
+@media screen and (min-width: 650px) {
+    .go-to-top {
+        display: none;
     }
 }
