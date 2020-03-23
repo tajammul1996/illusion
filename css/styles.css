@@ -979,6 +979,18 @@ section {
     color: #0d1d4e;
 }
 
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .slider {
+        height: 70vh;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 500px) {
+    .slider {
+        height: 58vh;
+    }
+}
+
 @media screen and (min-width: 1200px) {
     .buttons {
         max-width: 1200px;
