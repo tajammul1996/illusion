@@ -1049,8 +1049,8 @@ section {
     padding-top: 1rem;
     margin-bottom: 2rem;
     margin-left: 10px;
+    margin-right: 20px;
     line-height: 2rem;
-    font-weight: 100;
 }
 
 .f-contact h3 {
@@ -1058,9 +1058,21 @@ section {
 }
 
 .f-contact a {
-    text-decoration: none;
     color: white;
-    padding-left: 8px;
+    line-height: 1.5rem;
+    padding-left: 5px;
+}
+
+.f-contact>ul>li {
+    padding: 5px 0;
+}
+
+.f-contact>ul>li>i {
+    padding-right: 5px;
+}
+
+.f-contact>ul>li>i>a:hover {
+    color: rgb(160, 156, 156);
 }
 
 .latest {
@@ -1106,7 +1118,11 @@ section {
         justify-content: space-between;
     }
     .about {
-        width: 30%;
+        width: 40%;
+    }
+    .f-contact {
+        margin: 0 10px;
+        padding-top: 0.7rem;
     }
     .latest {
         padding-top: -10rem;
@@ -1141,6 +1157,7 @@ section {
         font-size: 1.8rem;
     }
     .about p {
+        width: 90%;
         font-size: 1.1rem;
     }
     .f-contact h3 {
