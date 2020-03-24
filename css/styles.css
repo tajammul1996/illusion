@@ -1057,10 +1057,13 @@ section {
     font-size: 1.2rem;
 }
 
+.f-contact ul li i {
+    padding-right: 8px;
+}
+
 .f-contact a {
     text-decoration: none;
     color: white;
-    padding-left: 8px;
 }
 
 .latest {
