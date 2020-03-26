@@ -479,7 +479,7 @@ section {
   width: 90%;
 }
 
-.quality {
+/* .quality {
   margin: 4rem 0.5rem;
   text-align: center;
 }
@@ -666,7 +666,7 @@ section {
   font-size: 0.8rem;
   margin: 0.5rem 1.3rem;
   line-height: 1.5rem;
-}
+} */
 
 /* latest-projects */
 
@@ -700,21 +700,6 @@ section {
   width: 100%;
 }
 
-.image6 img {
-  height: 300px;
-}
-
-.image4 img {
-  height: 300px;
-}
-
-.image1 img {
-  height: 200px;
-}
-
-.image5 img {
-  height: 300px;
-}
 .project-images h2 {
   color: white;
   margin-top: -4rem;
@@ -739,41 +724,20 @@ section {
   height: 300px;
 }
 
-.project-images h2 {
-  color: white;
-  margin-top: -4rem;
-  margin-left: 2rem;
-  transition-duration: 0.25s;
+@media screen and (min-width: 650px) {
+  .image1 img {
+    height: 185px;
+  }
+
+  .image4 img {
+    height: 183px;
+  }
 }
 
-.project-images h2:hover {
-  font-size: 2rem;
-}
-
-.project-images p {
-  color: white;
-  margin-left: 2rem;
-  margin-top: 0.3rem;
-  transition-duration: 0.25s;
-}
-
-.project-images p:hover {
-  font-size: 1.2rem;
-}
-
-.project-images h2:hover {
-  font-size: 2rem;
-}
-
-.project-images p {
-  color: white;
-  margin-left: 2rem;
-  margin-top: 0.3rem;
-  transition-duration: 0.25s;
-}
-
-.project-images p:hover {
-  font-size: 1.2rem;
+@media screen and (min-width: 1200px) {
+  .image1 img {
+    height: 200px;
+  }
 }
 
 /* Our Company */
@@ -859,18 +823,6 @@ section {
   }
   .container p {
     font-size: 1.1rem;
-  }
-  .image4 img {
-    height: 185px;
-  }
-  .image2 img {
-    height: 200px;
-  }
-  .image4 img {
-    height: 185px;
-  }
-  .image2 img {
-    height: 200px;
   }
 }
 
