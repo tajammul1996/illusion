@@ -715,6 +715,27 @@ section {
 .image5 img {
   height: 300px;
 }
+.project-images h2 {
+  color: white;
+  margin-top: -4rem;
+  margin-left: 2rem;
+  transition-duration: 0.25s;
+}
+
+.project-images h2:hover {
+  font-size: 2rem;
+}
+
+.project-images p {
+  color: white;
+  margin-left: 2rem;
+  margin-top: 0.3rem;
+  transition-duration: 0.25s;
+}
+
+.project-images p:hover {
+  font-size: 1.2rem;
+}
 
 /* Our Company */
 
@@ -776,12 +797,35 @@ section {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
     }
-    .image4 img {
-      height: 185px;
-    }
-    .image2 img {
-      height: 200px;
-    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .showcase h4 {
+    font-size: 1.8rem;
+  }
+  .showcase p {
+    font-size: 1.1rem;
+  }
+  .showcase a {
+    font-size: 1.1rem;
+  }
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .container h3 {
+    font-size: 1.8rem;
+  }
+  .container p {
+    font-size: 1.1rem;
+  }
+  .image4 img {
+    height: 185px;
+  }
+  .image2 img {
+    height: 200px;
   }
 }
 
@@ -1070,10 +1114,13 @@ section {
   font-size: 1.2rem;
 }
 
+.f-contact ul li i {
+  padding-right: 8px;
+}
+
 .f-contact a {
   text-decoration: none;
   color: white;
-  padding-left: 8px;
 }
 
 .latest {
