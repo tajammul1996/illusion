@@ -700,6 +700,22 @@ section {
     width: 100%;
 }
 
+
+.image6 img {
+  height: 300px;
+}
+
+.image4 img {
+  height: 300px;
+}
+
+.image1 img {
+  height: 200px;
+}
+
+.image5 img {
+  height: 300px;
+
 .project-images h2 {
     color: white;
     margin-top: -4rem;
@@ -806,7 +822,49 @@ section {
     .container p {
         font-size: 1.1rem;
     }
+
+    .image4 img {
+      height: 185px;
+    }
+    .image2 img {
+      height: 200px;
+    }
+  }
 }
+
+@media screen and (min-width: 1200px) {
+  .showcase h4 {
+    font-size: 1.8rem;
+  }
+  .showcase p {
+    font-size: 1.1rem;
+  }
+  .showcase a {
+    font-size: 1.1rem;
+  }
+  .container {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .container h3 {
+    font-size: 1.8rem;
+  }
+  .container p {
+    font-size: 1.1rem;
+  }
+  .image4 img {
+    height: 200px;
+  }
+  .image5 img {
+    height: 200px;
+  }
+  .image6 img {
+    height: 200px;
+  }
+}
+}
+
 
 
 /* media queries starts from here */
@@ -980,15 +1038,15 @@ section {
 }
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
-    .slider {
-        height: 70vh;
-    }
+  .slider {
+    height: 70vh;
+  }
 }
 
 @media screen and (min-width: 375px) and (max-width: 500px) {
-    .slider {
-        height: 58vh;
-    }
+  .slider {
+    height: 58vh;
+  }
 }
 
 @media screen and (min-width: 1200px) {
